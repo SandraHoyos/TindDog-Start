@@ -67,7 +67,7 @@ p{
     width: 20%;
     transform: rotate(25deg);
     position: absolute;
-    right: 25%;
+    right: 30%;
 }
 
 /* Features Section */
@@ -126,11 +126,50 @@ p{
 
 /* Pricing */
 
-.pricing{
+#pricing{
     padding: 100px;
     text-align: center;
 }
 
-.princing-colmn{
+.princing-column{
     padding: 3% 2%;
 }
+
+/* CTA section */
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;  
+}
+.cta-heading{
+    font-family:'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer section */ 
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon {
+    margin: 20px 10px
+}
+
+@media(max-width:1028px){
+    
+    #title{
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        
+
+    }
+}
+
+
